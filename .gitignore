@@ -1,5 +1,4 @@
 venv
-images
 .python_history# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -110,6 +109,11 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+
+# QR code outputs
+qr_codes/QRCode_*.png
+!qr_codes/github_qr.png
+!qr_codes/docker_qr.png
 
 # Spyder project settings
 .spyderproject
